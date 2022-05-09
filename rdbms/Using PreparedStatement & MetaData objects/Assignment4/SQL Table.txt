@@ -1,0 +1,9 @@
+CREATE TABLE stdnt (
+	Rollno Number (4) Primary Key,
+	StudentName Varchar (20)  Not Null,
+	Standard Varchar (2) Not Null,
+	Date_Of_Birth Date,
+	Fees Number (9,2)
+);
+INSERT INTO student VALUES(1004, 'Harsh', 'V', '02-Oct-1999', 1200.0);
+ */
